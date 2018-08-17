@@ -1,0 +1,4 @@
+capable edit_permission:
+  title: 'Edit permission'
+  description: 'Edit permission description'
+  restrict access: false

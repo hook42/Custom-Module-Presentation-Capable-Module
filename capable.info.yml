@@ -1,0 +1,8 @@
+name: Capable
+description: Capable module for Custom Module Presentation
+package: Custom
+
+type: module
+core: 8.x
+
+configure: capable.settings

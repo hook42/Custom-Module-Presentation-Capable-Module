@@ -1,0 +1,53 @@
+capable.content:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\capable\Controller\CapableController::content'
+    _title: 'You did it'
+  requirements:
+    _permission: 'access_content capable edit_permissions'
+
+capable.parameters:
+  path: '/parameters/{slug}'
+  defaults:
+    _controller: '\Drupal\capable\Controller\CapableController::parameters'
+  requirements:
+    _permission: 'access content'
+
+capable.config:
+  path: 'capable-module/configuration'
+  defaults:
+    _controller: '\Drupal\capable\Controller\CapableController::configsettingspage'
+  requirements:
+    _permission: 'access content'
+
+capable.form:
+  path: '/capable/form'
+  defaults:
+    _form: '\Drupal\capable\Form\CapableForm'
+    _title: 'Capable Form'
+  requirements:
+    _permission: 'access content'
+
+capable.welcome:
+  path: /welcome
+  defaults:
+    _controller: \Drupal\capable\Controller\CapableController::welcome
+    _title: 'Welcome'
+  requirements:
+    _permission: 'access content'
+
+capable.moduleconfigs:
+  path: /module/configs
+  defaults:
+    _controller: \Drupal\capable\Controller\CapableController::moduleconfigs
+    _title: 'Module Configs'
+  requirements:
+    _permission: 'access content'
+
+capable.serviceexample:
+  path: '/module/service'
+  defaults:
+    _controller: '\Drupal\capable\Controller\CapableController::serviceexample'
+    _title: 'Service Example'
+  requirements:
+    _permission: 'access content'

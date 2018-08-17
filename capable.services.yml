@@ -1,0 +1,3 @@
+services:
+ capable.say_hello:
+   class: Drupal\capable\CapableServices

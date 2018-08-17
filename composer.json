@@ -1,0 +1,16 @@
+{
+    "name": "drupal/capable",
+    "description": "Capable is an example module to show how to make a custom module.",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "Lindsay Gaudinier (legaudinier)",
+            "homepage": "https://www.drupal.org/u/legaudinier",
+            "role": "Maintainer"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "require": {
+      "drupal/social_media_links": "2.6"
+    }
+}

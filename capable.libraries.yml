@@ -1,0 +1,35 @@
+main:
+  version: 1.x
+  css:
+    theme:
+      css/capable.module.css: {}
+      css/capable.theme.css: {}
+  js:
+    js/main.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+form:
+  version: 1.x
+  css:
+    theme:
+      css/capable.form.css: {}
+template:
+  version: 1.x
+  css:
+    state:
+      css/capable.template.css: {}
+miscellaneous:
+  version: 1.x
+  css:
+    base:
+      css/capable.miscellaneous.css: {}
+# angular.angularjs:
+#   remote: https://github.com/angular/angular.js
+#   version: 1.4.4
+#   license:
+#     name: MIT
+#     url: https://github.com/angular/angular.js/blob/master/LICENSE
+#     gpl-compatible: true
+#   js:
+#     https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js: { type: external, minified: true }
