@@ -9,8 +9,7 @@
             "role": "Maintainer"
         }
     ],
-    "license": "GPL-2.0-or-later",
     "require": {
-      "drupal/social_media_links": "2.6"
+        "devel/devel": "1.2"
     }
 }
